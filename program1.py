@@ -17,3 +17,4 @@ class Solution:
                 if grid[row][column]=='L':
                     dfs(row, column)
                 count+=1
+        return count
