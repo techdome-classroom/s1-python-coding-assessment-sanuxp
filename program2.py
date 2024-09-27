@@ -1,2 +1,2 @@
 def decode_message( s: str, p: str) -> bool:
-        len1 = 0
+        len1, len2,  = 0
