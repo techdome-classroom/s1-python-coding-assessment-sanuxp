@@ -13,3 +13,4 @@ def decode_message( s: str, p: str) -> bool:
                         mat+=1
                         len1 = mat
                 else: return False
+        
