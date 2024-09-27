@@ -9,4 +9,5 @@ class Solution:
             grid[row][column] = 'W'
             dfs(row+1, column)
             dfs(row-1, column)
+            dfs(row, column+1)
             dfs(row, column-1)
