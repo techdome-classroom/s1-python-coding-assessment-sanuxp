@@ -1,4 +1,6 @@
 class Solution:
    
     def getTotalIsles(self, grid: list[list[str]]) -> int:
-        pass
+        m = len(grid)
+        n = len(grid[0])
+        
