@@ -16,3 +16,4 @@ class Solution:
             for column in range(n):
                 if grid[row][column]=='L':
                     dfs(row, column)
+                count+=1
