@@ -10,4 +10,6 @@ def decode_message( s: str, p: str) -> bool:
                         len2+=1
                 elif star!=-1:
                         len2 = star+1
-                        
+                        mat+=1
+                        len1 = mat
+                else: return False
