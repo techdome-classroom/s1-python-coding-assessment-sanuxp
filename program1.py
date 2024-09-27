@@ -21,3 +21,4 @@ class Solution:
 if __name__ == "__main__":
     s = Solution()
     ans = s.getTotalIsles([["L","L","L","L","W"],["L","L","W","L","W"],["L","L","W","W","W"],["W","W","W","W","W"]])
+    print
