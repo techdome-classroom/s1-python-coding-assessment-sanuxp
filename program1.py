@@ -11,3 +11,4 @@ class Solution:
             dfs(row-1, column)
             dfs(row, column+1)
             dfs(row, column-1)
+        
