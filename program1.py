@@ -7,3 +7,6 @@ class Solution:
             if row<0 or row == m or column<0 or column == n or grid[row][column] == 'W':
                 return
             grid[row][column] = 'W'
+            dfs(row+1, column)
+            dfs(row-1, column)
+            dfs(row, column-1)
