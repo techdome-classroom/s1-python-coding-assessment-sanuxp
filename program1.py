@@ -11,4 +11,8 @@ class Solution:
             dfs(row-1, column)
             dfs(row, column+1)
             dfs(row, column-1)
-        
+        count = 0
+        for row in range(m):
+            for column in range(n):
+                if grid[row][column]=='L':
+                    dfs(row, column)
