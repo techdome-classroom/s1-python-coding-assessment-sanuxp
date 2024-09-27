@@ -18,3 +18,5 @@ class Solution:
                     dfs(row, column)
                 count+=1
         return count
+if __name__ == "__main__":
+    s = Solution()
